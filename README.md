@@ -27,3 +27,11 @@ MyToken is a simple ERC-20 compatible token built on Ethereum for learning purpo
 ### Check Balance
 ```solidity
 balanceOf(address) → returns uint256
+✔ Transfer Tokens
+transfer(address to, uint256 amount)
+
+✔ Approve Spending
+approve(address spender, uint256 amount)
+
+✔ Transfer on Behalf (Using Allowance)
+transferFrom(address from, address to, uint256 amount)
